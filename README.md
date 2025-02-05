@@ -50,6 +50,17 @@ Bechdel test result
 Profitability status
 
 Using VLOOKUP, I retrieved the relevant details:
+5. Adding Slicers for Interactive Filtering
+To enhance data visualization and user experience, I added Slicers for:
+
+Year
+Category(Low, Medium,High)
+Profitable (Yes/No)
+Successful (Yes/No)
+Bechdel Pass Status(Pass/Fail)
+Slicers allow users to filter pivot table data interactively, making it easier to analyse trends without modifying formulas or raw data. For example, selecting a specific Year instantly updates the dashboard to show only relevant movies. Similarly, filtering by Profitable or Bechdel Pass helps in understanding patterns in movie success and inclusivity.
+
+
 Conclusion
 
 This project helps in understanding movie success factors using Excel's data analysis tools. The use of VLOOKUP, IF, AND, and pivot tables makes it easier to derive meaningful insights. The Dashboard provides a quick lookup feature for movie details, enhancing usability.
